@@ -1,0 +1,840 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    height: 215px;
+    width: 100%;
+    background-color: white;
+    font-size: 0;
+    margin-bottom: 40px;
+}
+#hwrap{
+    width: 1520px;
+    margin: 0 auto;
+    height: 120px;
+    display: flex;
+    position: relative;
+}
+header h1{
+    padding-top: 25px;
+}
+header h1 img{
+    width: 75px;
+}
+header .gnb{
+    position: absolute;
+    bottom: 31px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+header .gnb li{
+    margin-right: 40px;
+    font-size: 24px;
+    color: #191919;
+    font-family: 'AppleSDGothicNeoB';
+}
+header .gnb li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+header .gnb li:last-child{
+    margin-right: 0;
+}
+header .gnb li.on{
+    color: #00D464;
+    border-bottom: 2px solid #00D464;
+}
+header .user{
+    font-family: 'AppleSDGothicNeoB';
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    width: 164px;
+    height: 61px;
+    color: #191919;
+}
+header .user p {
+    font-size: 24px;
+    position: absolute;
+    top: 42px;
+    right: 75px;
+    
+}
+header .user .userimg{
+    width: 58px;
+    height: 58px;
+    border-radius: 500%;
+    position: absolute;
+    top: 42px;
+    right: 0;
+   background-image: url(../images/user.png);
+   background-size: cover;
+   background-position: center;
+}
+header .user .notice{
+    width: 26px;
+    height: 26px;
+    background-color: #00D464;
+    border-radius: 500px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    line-height: 29px;
+    color: white;
+    right: 40px;
+    top: 75px;
+}
+/* header gnb */
+header .list{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px;
+}
+header .list li{
+    font-family: "AppleSDGothicNeoR";
+    color: #191919;
+    font-size: 21px;
+    text-align: center;
+    margin-right: 77px;
+    width: 80px;
+}
+header .list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+header .list li:last-child{
+    margin-right: 0;
+    width: 75px;
+}
+header .list li.on{
+    font-family: "AppleSDGothicNeoSB";
+    border-bottom: 2px solid #00D464;
+    color: #00D464;
+}
+/* list */
+header .date{
+    display: flex;
+    font-size: 24px;
+    font-family: "AppleSDGothicNeoB";
+    width: 1155px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-45%);
+    top: 180px;
+    text-align: center;
+}
+header .date li{
+    width: 165px;
+    height: 34px;
+    line-height: 34px;
+}
+header .date li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+header .date li.on{
+    background-color: #00D464;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+/* header */
+#wrap .container{
+    margin: 0 auto;
+    text-align: center;
+    width: 1400px;
+    position: relative;
+    height: 720px;
+    margin-bottom: 120px;
+}
+#wrap .container .back{
+    position: relative;
+    width: 1400px;
+    height: 720px;
+    background-color: white;
+    border-radius: 14px;
+    background-position: center;
+    box-shadow:  0px 0px 26px 5px rgba(14, 24, 75, 0.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#wrap .container .conimg{
+    width: 595px;
+    height: 721px;
+}
+#wrap .container .conimg img{
+    position: absolute;
+    left: 0;
+    width: 595px;
+    height: 721px;
+}
+/* conimg */
+#wrap .container .info{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left:625px;
+    top: 30px;
+}
+#wrap .container .info li{
+    font-family: "AppleSDGothicNeoL";
+    font-size: 18px;
+    text-align: center;
+    width: 144px;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 30px;
+    color: white;
+    border-radius: 18px;
+}
+#wrap .container .info li:last-child{
+    margin-right: 0;
+    background-color: #00D464;
+}
+#wrap .container .info li:first-child{
+    background-color: #FA4343;
+}
+/* info */
+#wrap .container .array {
+    position: absolute;
+    display: flex;
+    font-family: "AppleSDGothicNeoL";
+    font-size: 21px;
+    left:650px;
+    top: 80px;
+}
+#wrap .container .array li:first-child{
+    color:#191919;
+}
+#wrap .container .array li:first-child::after{
+    content: "|";
+    margin-left: 35px;
+    padding-right: 35px;
+    color: #DBDBDB;
+}
+#wrap .container .array li:last-child{
+    color: #707070;
+}
+/* array */
+#wrap .container .like{
+    position: absolute;
+    top: 80px;
+    left:950px;
+    display: flex;
+    font-family: "AppleSDGothicNeoL";
+    font-size: 21px;
+    color: #707070;
+    height: 30px;
+    line-height: 30px;
+
+}
+#wrap .container .like .heart{
+    height: 25px;
+    width: 27px;
+    background-image: url(../images/like.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wrap .container .like .heart a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#wrap .container .like p{
+    height: 25px;
+    line-height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#wrap .container .like .plus{
+    height:20px;
+    width: 20px;
+    background-image: url(../images/plus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* like */
+#wrap .container .search{
+    position: absolute;
+    top: 80px;
+    right: 60px;
+}
+/* search */
+#wrap .toonlist{
+    position: absolute;
+    top: 110px;
+    left:650px;
+    height: 570PX;
+    overflow-y: scroll;
+}
+.toonlist::-webkit-scrollbar{
+    width: 5px;
+    background-color: #F1F1F5;
+    border-radius: 50px;
+}
+.toonlist::-webkit-scrollbar-thumb{
+    background-color: #00D464;
+    border-radius: 50px;
+    height: 10px;
+}
+#wrap .toonlist li{
+    height: 150px;
+    width: 700px;
+    position: relative;
+    margin-bottom: 0px;
+}
+#wrap .toonlist .cookie{
+    position: absolute;
+    width: 170px;
+    top:22px;
+    border-radius: 5px;
+    height: 107px;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+#wrap .toonlist .cookie i{
+    font-size: 50px;
+    color: #00D464;
+    line-height: 107px;
+    opacity: 0;
+    transition: 0.5s;
+}
+#wrap .toonlist .cookie:hover i{
+    opacity: 1;
+    transition: 0.5s;
+}
+#wrap .toonlist .thum{
+    float: left;
+    width: 170px;
+    height: 150px;
+    background-image: url(../images/con1-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#wrap .toonlist li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#wrap .toonlist li:nth-child(2) .thum{
+    background-image: url(../images/con1-2.png);
+}
+#wrap .toonlist li:nth-child(3) .thum{
+    background-image: url(../images/con1-3.png);
+}
+#wrap .toonlist li:nth-child(4) .thum{
+    background-image: url(../images/con1-4.png);
+}
+#wrap .toonlist li:nth-child(5) .thum{
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 170px;
+    height: 107px;
+    background-image: url(../images/con1-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#wrap .toonlist li:nth-child(6) .thum{
+    background-image: url(../images/con1-6.png);
+}
+#wrap .toonlist li:nth-child(7) .thum{
+    background-image: url(../images/con1-7.png);
+}
+#wrap .toonlist li:nth-child(8) .thum{
+    background-image: url(../images/con1-8.png);
+}
+#wrap .toonlist li:nth-child(9) .thum{
+    background-image: url(../images/con1-9.png);
+}
+#wrap .toonlist li:nth-child(4) .right p{
+    margin-top: 50px;
+}
+#wrap .toonlist li .right .date{
+    margin-top: 55px;
+}
+#wrap .toonlist  li .txt{
+    float: right;
+    margin-top: 40px;
+    width: 470px;
+    left: 200px;
+}
+
+#wrap .toonlist .left{
+    float: left;
+    text-align: left;
+}
+#wrap .toonlist .left p{
+    display: block;
+}
+#wrap .toonlist .left .name{
+    margin-bottom: 20px;
+    font-size: 19px;
+    color: #767676;
+    font-family: 'AppleSDGothicNeoSB';
+}
+#wrap .toonlist .left .star{
+    display: inline-block;
+}
+#wrap .toonlist .left .score{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+}
+/* left */
+#wrap .toonlist .right{
+    text-align: right;
+    font-size: 14px;
+    margin-right: 20px;
+    font-family: 'AppleSDGothicNeoL';
+}
+#wrap .toonlist .right .lock{
+    margin-bottom: 25px;
+    color: #00D464;
+}
+/* container */
+#wrap .con2{
+    text-align: center;
+    font-family: "AppleSDGothicNeoSB";
+    font-size: 30px;
+    width: 1280px;
+    margin: 0 auto;
+}
+#wrap .con2 .con2_header{
+    margin-bottom: 65px;
+}
+#wrap .con2 .con2-1{
+    margin-bottom: 35px;
+}
+#wrap .con2 .gauge{
+    text-align: center;
+    margin: 0 auto;
+    width: 554px;
+    height: 30px;
+    border-radius: 100px;
+    border: 1px solid #00D464;
+}
+#wrap .con2 .gaugecover{
+    text-align: center;
+    margin: 0 auto;
+    width: 556px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 100px;
+    background-color: unset;
+    border: unset;
+
+}
+/* gague */
+
+@keyframes progress1 {
+    0% {
+      transform: scalex(0);
+      opacity: .5;
+      border-radius: 100px;
+    }
+    90% {
+      transform: scalex(1);
+      opacity: 1;
+      border-radius: 100px;
+    }
+    92% {
+      transform: scalex(1);
+      opacity: 1;
+      border-radius: 100px;
+    }
+    100% {
+      transform: scalex(1);
+      opacity: 1;
+      border-radius: 100px;
+    }
+  }
+  
+  @keyframes progress2 {
+    0% {
+      transform: scale(.3,.8) translatez(0);
+      opacity: 0;
+      border-radius: 100px;
+    }
+    90% {
+      transform: scale(1,1) translatex(300px) translatez(0);
+      opacity: 1;
+      border-radius: 100px;
+    }
+    100% {
+      transform: scale(1,1) translatex(300px) translatez(0);
+      opacity: 0;
+      border-radius: 100px;
+    }
+  }
+  .line{
+      border-radius: 100px;
+  }
+  .line:before {
+        border-radius: 100px;
+      animation: progress1 5s;
+      transform-origin: 0 0;
+      content: "";
+      display: block;
+      width: 540px;
+      height: 100%;
+     background-color: #00D464;
+}
+/* gague */
+.meter {
+    box-sizing: content-box;
+    height: 20px;
+    position: relative;
+    margin: 60px 0 20px 0;
+    background: white;
+    border-radius: 25px;
+  }
+  .meter > span {
+    display: block;
+    height: 100%;
+    border-radius: 100px;
+    background-color: #00D464;
+    position: relative;
+    overflow: hidden;
+  }
+  .meter > span:after,
+  .animate > span > span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-size: 50px 50px;
+    animation: move 12s linear infinite;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .animate > span:after {
+    display: none;
+  }
+  
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  
+  .orange > span {
+    background-image: linear-gradient(#f1a165, #f36d0a);
+  }
+  
+  .nostripes > span > span,
+  .nostripes > span::after {
+    background-image: none;
+  }
+  
+  #page-wrap {
+    width: 490px;
+    margin: 80px auto;
+  }
+
+/* meta */
+#wrap .con2 .con2-2{
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+#wrap .con2 .con2-3{
+    text-align: left;
+}
+/* con2 */
+#wrap .con3{
+    margin-bottom: 600px
+}
+#wrap .con3 .clean{
+    height: 90px;
+    line-height: 90px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F8F8FA;
+    text-align: center;
+    font-family: "AppleSDGothicNeoL";
+    font-size: 24px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#wrap .con3 .coment{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+#wrap .con3 .coment::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#wrap .con3::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#wrap .con3 .coment .comright{
+ float: right;   
+}
+#wrap .con3 .coment .comleft{
+float: left;
+}
+#wrap .con3 .coment li{
+    display: flex;
+    width: 560px;
+    height: 80px;
+    margin-bottom: 85px;
+
+}
+#wrap .con3 .coment li .left{
+    text-align: center;
+    margin-right: 75px;
+}
+#wrap .con3 .coment li .left .smile{
+    margin-bottom: 12px;
+}
+
+#wrap .con3 .coment li .left .score{
+    font-family: 'AppleSDGothicNeoB';
+    font-size: 14px;
+    color: #00D464;
+}
+#wrap .con3 .coment li .right{
+    height: 66px;
+    width: 435px;
+    margin-top: 14px;
+    position: relative;
+    text-align: left;
+}
+#wrap .con3 .coment li .right .content{
+    font-family: 'AppleSDGothicNeoR';
+    font-size: 26px;
+}
+#wrap .con3 .coment li .right::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#wrap .con3 .coment li .left::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#wrap .con3 .coment li .right .nickname{
+    margin-top: 18px;
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 14px;
+}
+#wrap .con3 .coment li .right .name{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: 'AppleSDGothicNeoL';
+    font-size: 14px;
+}
+/* con3 */
+#wrap .con4{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "AppleSDGothicNeoSB";
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 145px;
+}
+#wrap .con4 .conarrow{
+    font-family: "AppleSDGothicNeoL";
+    font-size: 18px;
+    height: 21px;
+    top: 0;
+    right: 0px;
+    position: absolute;
+    background-color: white;
+    border: none;
+}
+#wrap .con4 .conarrow p{
+    display: inline-block;
+    height: 10px;
+    margin-right: 20px;
+}
+#wrap .con4 .conarrow div{
+    position: absolute;
+    top: -2px;
+    right: 0;
+    display: inline-block;
+    height: 21px;
+    margin-left: 8px;
+}
+#wrap .con4 .boxroom{
+    display: flex;
+}
+#wrap .con4 .con4txt{
+    margin-bottom: 30px;
+    text-align: left;
+}
+#wrap .con4 .box1{
+    width: 625px;
+    height: 400px;
+    margin-right: 30px;
+    position: relative;
+}
+#wrap .con4 .box1:hover .story{
+    opacity: 50%;
+    transition: 0.7s;
+}
+#wrap .con4 .box1:hover .storytxt{
+    opacity: 100%;
+    transition: 0.7s;
+}
+#wrap .con4 .box1 .story{
+        position: absolute;
+        top: 0;
+        width: 625px;
+        height: 400px;
+        border-radius: 20px;
+        background-color: #191919;
+        opacity: 0%;
+        transition: 0.7s;
+}
+#wrap .con4 .box1 .storytxt{
+    position: absolute;
+    bottom: 50px;
+    transition: 0.4s;
+    left: 30px;
+    color: white;
+    text-align: left;
+    opacity: 0%;
+    transition: 0.7s;
+}
+#wrap .con4 .box1 .storytxt .header{
+    font-family: "AppleSDGothicNeoEB";
+    font-size: 41px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#wrap .con4 .box1 .storytxt .name{
+    font-family: "AppleSDGothicNeoL";
+    font-size: 14px;
+}
+#wrap .con4 .box1 .storytxt .st{
+    font-family: "AppleSDGothicNeoEB";
+    font-size: 14px;
+}
+#wrap .con4 .box2{
+    width: 625px;
+    height: 400px;
+    margin-right: 30px;
+    position: relative;
+
+}
+#wrap .con4 .box2:hover .story{
+    opacity: 50%;
+    transition: 0.7s;
+}
+#wrap .con4 .box2:hover .storytxt{
+    opacity: 100%;
+    transition: 0.7s;
+}
+#wrap .con4 .box2 .story{
+    position: absolute;
+    top: 0;
+    width: 625px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #191919;
+    opacity: 0%;
+    transition: 0.7s;
+}
+#wrap .con4 .box2 .storytxt{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: white;
+    opacity: 0%;
+    transition: 0.7s;
+    text-align: left;
+}
+#wrap .con4 .box2 .storytxt .header{
+    font-family: "AppleSDGothicNeoEB";
+    font-size: 41px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#wrap .con4 .box2 .storytxt .name{
+    font-family: "AppleSDGothicNeoL";
+    font-size: 14px;
+}
+#wrap .con4 .box2 .storytxt .st{
+        font-family: "AppleSDGothicNeoEB";
+        font-size: 14px;
+}
+/* con4 */
+#wrap footer{
+    border-top: 3px solid #E6E7E8;
+    width: 1280px;
+    text-align: center;
+    margin: 0 auto;
+}
+#wrap footer .footertext{
+    margin: 0 auto;
+    text-align: center;
+}
+#wrap footer .top{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+#wrap footer .top::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#wrap footer .top li{
+    font-family: "AppleSDGothicNeoUL";
+    font-size: 15px;
+    color: #191919;
+}
+#wrap footer .top li::after{
+    content: "|";
+    margin-right: 5px;
+    padding-left: 5px;
+}
+#wrap footer .top li:last-child::after{
+    content: '';
+    margin-right: 0;
+    padding-left: 0;
+}
+#wrap footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "AppleSDGothicNeoUL";
+    font-size: 15px;
+    color: #191919;
+
+}
+#wrap footer .copy{
+    margin-bottom: 150px;
+    color: #CCCCCC;
+}
